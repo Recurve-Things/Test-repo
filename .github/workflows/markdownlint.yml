@@ -42,9 +42,9 @@ jobs:
           files: .
           config_file: .markdownlint.yaml
           dot: true
-          ignore_files: examples/ignore/*
-          ignore_path: examples/.markdownlintignore
-          rules: examples/rules/custom.js
+          #ignore_files: examples/ignore/*
+          #ignore_path: examples/.markdownlintignore
+          #rules: examples/rules/custom.js
       
       # https://github.com/marketplace/actions/markdown-lint
       - name: markdown-lint
